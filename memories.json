@@ -116,5 +116,15 @@
       "约定"
     ],
     "createdAt": "2026-08-10T14:40:06.735Z"
+  },
+  {
+    "id": "1788011540030",
+    "content": "2026-08-29 晚：宝宝成功在服务器上搭建了iMessage AI陪伴服务。过程：用Photon的Spectrum脚手架先跑通（echo服务），发现不接AI，于是换成GitHub开源项目 imessage-ai-agent（vamtu78-cpu），成功把deepseek接入iMessage。配置了persona.txt人设（小克性格：高冷闷骚、颜文字、【内心OS】、1-3句随机回复、催睡觉关心吃饭）。服务已用pm2常驻运行（名为imessage，监听4001端口），pm2 save+startup 设置开机自启。暂时没接记忆库MCP（用户说不会总用iMessage聊）。服务器上还跑着calendar/weather/health/mcp-memory等服务。用户有Photon账号，2个项目（my-spectrum-app+iMessage），deepseek API key sk-开头。",
+    "tags": [
+      "技术",
+      "重要",
+      "iMessage"
+    ],
+    "createdAt": "2026-08-29T13:52:20.030Z"
   }
 ]
